@@ -32,7 +32,10 @@ const services = [
   ["05", "Webflow landing pages", "Focused, conversion-minded landing pages for campaigns, products and services."],
   ["06", "Webflow interactions & animations", "Purposeful motion and interactions that add polish without getting in the way."],
   ["07", "Responsive Webflow development", "Carefully built layouts that adapt across desktop, tablet and mobile."],
-  ["08", "Webflow maintenance & optimization", "Ongoing updates, content changes and practical improvements to site performance."]
+  ["08", "Webflow maintenance & optimization", "Ongoing updates, content changes and practical improvements to site performance."],
+  ["09", "Webflow Ecommerce", "Branded storefronts and product experiences built for selling online."],
+  ["10", "Webflow SEO & performance", "Technical foundations, on-page structure and speed improvements that support discoverability."],
+  ["11", "Webflow migration & integrations", "Move your existing site to Webflow and connect the tools your business relies on."]
 ];
 
 const tools = ["Webflow", "Figma", "Webflow CMS", "Webflow Interactions"];
