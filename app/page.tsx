@@ -25,13 +25,17 @@ const projects = [
 ];
 
 const services = [
-  ["01", "Webflow design & development", "Responsive websites, built with care and a clear path to conversion."],
-  ["02", "Website redesign", "A sharper visual identity, better structure and a smoother user journey."],
-  ["03", "UI/UX & landing pages", "Purposeful interfaces and focused pages that make the next step obvious."],
-  ["04", "No-code MVP development", "Lean digital products and early-stage experiences using no-code tools."]
+  ["01", "Webflow website design", "Custom website layouts shaped around your brand, audience and business goals."],
+  ["02", "Figma to Webflow", "Pixel-conscious, responsive Webflow builds translated from your approved Figma designs."],
+  ["03", "Webflow website redesign", "Refresh an outdated website with clearer messaging, stronger UX and a modern visual system."],
+  ["04", "Webflow CMS development", "Flexible CMS collections and templates that make updating your website simple."],
+  ["05", "Webflow landing pages", "Focused, conversion-minded landing pages for campaigns, products and services."],
+  ["06", "Webflow interactions & animations", "Purposeful motion and interactions that add polish without getting in the way."],
+  ["07", "Responsive Webflow development", "Carefully built layouts that adapt across desktop, tablet and mobile."],
+  ["08", "Webflow maintenance & optimization", "Ongoing updates, content changes and practical improvements to site performance."]
 ];
 
-const tools = ["Webflow", "Figma", "Bubble", "WordPress", "Shopify", "Framer"];
+const tools = ["Webflow", "Figma", "Webflow CMS", "Webflow Interactions"];
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -54,10 +58,10 @@ export default function Home() {
 
       <section className="hero shell">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="status-dot" /> INDEPENDENT DIGITAL DESIGNER & DEVELOPER</p>
-          <h1>WE MAKE<br /><span>THE WEB</span><br />FEEL BETTER<span className="period">.</span></h1>
+          <p className="eyebrow"><span className="status-dot" /> WEBFLOW DESIGNER & DEVELOPER</p>
+          <h1>WE BUILD<br /><span>BETTER</span><br />WEBFLOW SITES<span className="period">.</span></h1>
           <div className="hero-bottom">
-            <p className="hero-intro">I design and build thoughtful digital experiences that help ambitious brands show up with clarity and confidence.</p>
+            <p className="hero-intro">I design and develop strategic, high-performing Webflow websites that help ambitious brands turn more visitors into customers.</p>
             <a className="text-link" href="#work">Explore selected work <ArrowDownRight size={16} /></a>
           </div>
         </div>
@@ -77,10 +81,10 @@ export default function Home() {
       <section className="intro-strip shell" id="about">
         <p className="eyebrow">A LITTLE ABOUT THE WORK</p>
         <div className="intro-grid">
-          <h2>Good design<br />should <em>do more.</em></h2>
+          <h2>Your website<br />should <em>work harder.</em></h2>
           <div className="intro-text">
-            <p>I’m the creative behind Zikaro. I bring design thinking and no-code development together to create websites that look considered, feel effortless and work hard for the people using them.</p>
-            <p>From a fresh landing page to a full website redesign, the goal is always the same: make every interaction count.</p>
+            <p>I’m the creative behind Zikaro, focused on designing and developing Webflow websites for businesses that want a stronger online presence. I combine thoughtful UI/UX, clean visual design and Webflow expertise to create responsive experiences.</p>
+            <p>From Figma-to-Webflow development to CMS builds and full website redesigns, I make sure your website looks sharp, works smoothly and is easy to manage.</p>
             <a className="text-link" href="#services">Explore capabilities <ArrowUpRight size={15} /></a>
           </div>
         </div>
@@ -88,7 +92,7 @@ export default function Home() {
 
       <section className="work-section shell" id="work">
         <div className="section-heading">
-          <div><p className="eyebrow">A FEW THINGS I’VE MADE</p><h2>Selected <em>work</em><span className="period">.</span></h2></div>
+          <div><p className="eyebrow">WEBFLOW PROJECTS & CONCEPTS</p><h2>Selected <em>work</em><span className="period">.</span></h2></div>
           <span className="section-count">01 — 02</span>
         </div>
         <div className="project-grid">
@@ -105,7 +109,7 @@ export default function Home() {
             </a>
           ))}
         </div>
-        <p className="work-note">A selection of live work and clearly labelled design concepts. More projects can be added as the portfolio grows.</p>
+        <p className="work-note">Selected website work and concepts. Project labels distinguish live websites from design concepts.</p>
       </section>
 
       <section className="services-section" id="services">
@@ -131,7 +135,7 @@ export default function Home() {
         <div className="toolkit-left">
           <p className="eyebrow">THE TOOLKIT</p>
           <h2>The right tools<br />for the <em>right idea.</em></h2>
-          <p className="toolkit-copy">A flexible toolkit for taking ideas from first sketch to a finished digital experience.</p>
+          <p className="toolkit-copy">My workflow is centered on Figma for design and Webflow for clean, responsive website development.</p>
         </div>
         <div className="tool-grid">
           {tools.map((tool, index) => (
@@ -156,10 +160,10 @@ export default function Home() {
       <section className="contact-section shell" id="contact">
         <div className="contact-panel">
           <div className="contact-kicker"><span className="status-dot" /> OPEN TO SELECT PROJECTS</div>
-          <h2>Have a good<br />one in <em>mind?</em></h2>
+          <h2>Ready for a<br /><em>better website?</em></h2>
           <div className="contact-bottom">
-            <p>Tell me what you’re building. Let’s make something clear, useful and memorable.</p>
-            <a className="contact-button" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Let’s start a conversation <ArrowUpRight size={17} /></a>
+            <p>Whether you need a new Webflow website, a redesign or expert development, let’s talk about what your business needs.</p>
+            <a className="contact-button" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Discuss your Webflow project <ArrowUpRight size={17} /></a>
           </div>
           <span className="contact-asterisk">✳</span>
         </div>
