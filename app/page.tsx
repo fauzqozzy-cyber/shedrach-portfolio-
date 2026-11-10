@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header shell">
-        <a className="wordmark" href="#" aria-label="Zikaro home">Z<span>.</span></a>
+        <a className="wordmark" href="#" aria-label="Shedrach Opatayo home">SHEDRACH OPATAYO</a>
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation">
           {menuOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="visual-orbit orbit-two" />
           <div className="visual-glow" />
           <div className="visual-label label-top">DESIGN WITH INTENTION</div>
-          <div className="visual-monogram">Z<span>.</span></div>
+          <div className="visual-monogram">SO<span>.</span></div>
           <div className="visual-index">WEB / 2026</div>
           <div className="visual-side-note">STRATEGY<br />× DESIGN<br />× BUILD</div>
           <Asterisk className="visual-star" size={54} strokeWidth={1} />
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="intro-grid">
           <h2>Your website<br />should <em>work harder.</em></h2>
           <div className="intro-text">
-            <p>I’m the creative behind Zikaro, focused on designing and developing Webflow websites for businesses that want a stronger online presence. I combine thoughtful UI/UX, clean visual design and Webflow expertise to create responsive experiences.</p>
+            <p>I’m Shedrach Opatayo, a Webflow designer and developer focused on designing and developing websites for businesses that want a stronger online presence. I combine thoughtful UI/UX, clean visual design and Webflow expertise to create responsive experiences.</p>
             <p>From Figma-to-Webflow development to CMS builds and full website redesigns, I make sure your website looks sharp, works smoothly and is easy to manage.</p>
             <a className="text-link" href="#services">Explore capabilities <ArrowUpRight size={15} /></a>
           </div>
@@ -173,8 +173,8 @@ export default function Home() {
       </section>
 
       <footer className="site-footer shell">
-        <a className="wordmark footer-mark" href="#">Z<span>.</span></a>
-        <span>© 2026 ZIKARO. BUILT WITH INTENTION.</span>
+        <a className="wordmark footer-mark" href="#">SHEDRACH OPATAYO</a>
+        <span>© 2026 SHEDRACH OPATAYO. BUILT WITH INTENTION.</span>
         <a href="#top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>BACK TO TOP ↑</a>
       </footer>
     </main>
